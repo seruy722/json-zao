@@ -15,8 +15,8 @@
 					</label>
 				</th>
 				<th>Name</th>
-				<th>Job</th>
-				<th>Favorite Color</th>
+				<th>Description</th>
+				<th>Brand</th>
 				<th></th>
 			</tr>
 		</thead>
@@ -38,16 +38,14 @@
 							</div>
 							<div>
 								<div class="font-bold">{product.title}</div>
-								<div class="text-sm opacity-50">United States</div>
+								<div class="text-sm opacity-50">{product.price}$</div>
 							</div>
 						</div>
 					</td>
 					<td>
-						Zemlak, Daniel and Leannon
-						<br />
-						<span class="badge badge-ghost badge-sm">Desktop Support Technician</span>
+						{product.description}
 					</td>
-					<td>Purple</td>
+					<td>{product.brand}</td>
 					<th>
 						<button class="btn btn-ghost btn-xs">details</button>
 					</th>
